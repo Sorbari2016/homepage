@@ -238,7 +238,20 @@
                     </div>
                 </div>
                 <div class="right-footer">
-                    <img src="/assets/rmbg_official.png" alt="Clematins Nwiibee">
+                    <img  
+                    srcset="
+                        /assets/resized_360.png 360w,
+                        /assets/resized_480.png 480w,
+                        /assets/resized_800.png 800w,
+                        /assets/resized_1200.png 1200w
+                    "
+                    src="/assets/rmbg_official.png"
+
+                    sizes="(max-width: 600px) 100vw,
+                        (max-width: 900px) 50vw,
+                        33vw"
+                    
+                    alt="Clematins Nwiibee ">
                 </div>
             </div>
         </footer>
