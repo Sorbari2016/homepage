@@ -15,16 +15,7 @@ body {
   font-style: normal;
 }
 
+/* different font type for the headings */
 h1, h2, h3, h4, h5, h6 { font-family: "Playfair Display", "serif";}
-
-.profile-image {
-        max-width: 240px;
-        min-height: 240px; 
-        background-image: url(/assets/official\ portrait-job.jpeg);
-        border: 1px solid black; 
-        background-size: cover; 
-        background-position: center;
-        object-fit: contain; 
-}
 
 
