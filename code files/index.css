@@ -7,6 +7,14 @@
     box-sizing: border-box;
 }
 
+
+body {
+   font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+}
+
 .profile-image {
         max-width: 240px;
         min-height: 240px; 
